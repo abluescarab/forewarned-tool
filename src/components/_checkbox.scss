@@ -1,0 +1,16 @@
+input[type="checkbox"] {
+    width: $multistate-size;
+    height: $multistate-size;
+    margin-right: $flexbox-margin;
+    padding: 0;
+
+    line-height: $multistate-size;
+    font-size: $multistate-font-size;
+    font-weight: bold;
+    text-align: center;
+
+    &:active {
+        border: 1px solid #aaa;
+        background-color: #fefefe;
+    }
+}

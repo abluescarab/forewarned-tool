@@ -1,0 +1,9 @@
+header {
+    margin-bottom: $margin;
+    width: 100%;
+
+    h1 {
+        line-height: $button-size;
+        flex-grow: 1;
+    }
+}

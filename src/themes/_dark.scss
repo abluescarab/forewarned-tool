@@ -1,0 +1,66 @@
+.dark-theme {
+    background-color: #22252a;
+    color: white;
+
+    a {
+        color: $dark-link-color;
+
+        &:visited {
+            color: $dark-link-color;
+        }
+    }
+
+    #container {
+        background-color: $dark-element-bg;
+    }
+
+    section {
+        background-color: $dark-element-bg;
+        border: 1px solid $border-color;
+        box-shadow: 0 0 7px rgba(0, 0, 0, .4);
+    }
+
+    select {
+        background-color: transparent;
+        color: white;
+        border: 1px solid $border-color;
+
+        option {
+            color: black;
+        }
+    }
+
+    input {
+        background-color: transparent;
+        color: white;
+        border: 1px solid $border-color;
+    }
+
+    footer {
+        background-color: $dark-element-bg;
+    }
+
+    .toggle {
+        color: $dark-link-color;
+    }
+
+    .multistate {
+        color: white;
+
+        &:not([data-state="none"]) {
+            background-color: $light-link-color;
+        }
+
+        &[data-state="no"] + label {
+            color: $dark-grayed-out;
+        }
+    }
+
+    .strike {
+        color: $dark-grayed-out;
+    }
+
+    .info {
+        background-color: $light-link-color;
+    }
+}

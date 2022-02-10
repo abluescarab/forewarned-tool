@@ -1,0 +1,33 @@
+a#donate {
+    background-color: #FBAA19;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 1px;
+
+    min-width: 100px - $donate-padding-left - $donate-padding-right - ($donate-border-width-small * 2);
+    margin-right: $margin;
+    padding-left: $donate-padding-left;
+    padding-right: $donate-padding-right;
+
+    img, span {
+        vertical-align: middle;
+        height: $button-size - ($donate-border-width-small * 2);
+    }
+
+    &:hover {
+        background-color: $donate-bg-hover;
+    }
+
+    &:active {
+        background-color: $donate-bg-active;
+    }
+
+    @include desktop {
+        min-width: 100px - $donate-padding-left - $donate-padding-right - ($donate-border-width-large * 2);
+
+        img, span {
+            height: $button-size - ($donate-border-width-large * 2);
+        }
+    }
+}

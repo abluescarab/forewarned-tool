@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forewarned Tool</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F4SV7X50EZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-F4SV7X50EZ');
+    </script>
+</head>
+<body class="light-theme">
+    <div id="container">
+        <header class="row">
+            <h1>Forewarned Tool</h1>
+            <a href="https://ko-fi.com/W7W2V072" target="_blank" id="donate"><img
+                    src="img/Ko-fi_logo_RGB_Outline.png"
+                    alt="Buy Me a Coffee at ko-fi.com" /><span>Donate</span></a>
+            <button id="reset">Reset</button>
+        </header>
+
+        <div class="row">
+            <div class="column">
+                <section id="evidence">
+                    <p class="section-title">Evidence</p>
+                    <div class="row">
+                        <button id="destruction" class="multistate material-icons" data-state="none"></button>
+                        <label for="destruction">Destruction</label>
+                    </div>
+
+                    <div class="row">
+                        <button id="disturbed-tombs" class="multistate material-icons" data-state="none"></button>
+                        <label for="disturbed-tombs">Disturbed Tombs</label>
+                    </div>
+
+                    <div class="row">
+                        <button id="electronic-disturbances" class="multistate material-icons"
+                            data-state="none"></button>
+                        <label for="electronic-disturbances">Electronic Disturbances</label>
+                    </div>
+
+                    <div class="row">
+                        <button id="extinguished-flames" class="multistate material-icons"
+                            data-state="none"></button>
+                        <label for="extinguished-flames">Extinguished Flames</label>
+                    </div>
+
+                    <div class="row">
+                        <button id="footsteps" class="multistate material-icons" data-state="none"></button>
+                        <label for="footsteps">Footsteps</label>
+                    </div>
+
+                    <div class="row">
+                        <button id="magnetic-distortion" class="multistate material-icons"
+                            data-state="none"></button>
+                        <label for="magnetic-distortion">Magnetic Distortion</label>
+                    </div>
+
+                    <div class="row">
+                        <button id="metallic-signature" class="multistate material-icons"
+                            data-state="none"></button>
+                        <label for="metallic-signature">Metallic Signature</label>
+                    </div>
+
+                    <div class="row">
+                        <button id="radar-detection" class="multistate material-icons" data-state="none"></button>
+                        <label for="radar-detection">Radar Detection</label>
+                    </div>
+
+                    <div class="row">
+                        <button id="radioactivity" class="multistate material-icons" data-state="none"></button>
+                        <label for="radioactivity">Radioactivity</label>
+                    </div>
+
+                    <div class="row">
+                        <button id="reanimation" class="multistate material-icons" data-state="none"></button>
+                        <label for="reanimation">Reanimation</label>
+                    </div>
+
+                    <div class="row">
+                        <button id="tremors" class="multistate material-icons" data-state="none"></button>
+                        <label for="tremors">Tremors</label>
+                    </div>
+
+                    <div class="row">
+                        <button id="vocal-response" class="multistate material-icons" data-state="none"></button>
+                        <label for="vocal-response">Vocal Response</label>
+                    </div>
+                </section>
+
+                <section>
+                    <p class="section-title">Used Equipment <span data-state="no"
+                            data-toggle="#used-equipment-section" class="toggle">show section</span></p>
+                    <div id="used-equipment-section" class="hidden">
+                        <div class="row">
+                            <button class="multistate material-icons" id="equipment-compass"
+                                data-state="none" data-states="yes none"></button>
+                            <label for="equipment-compass">Compass</label>
+                        </div>
+
+                        <div class="row">
+                            <button class="multistate material-icons" id="equipment-geiger-counter" data-state="none"
+                                data-states="yes none"></button>
+                            <label for="equipment-geiger-counter">Geiger Counter</label>
+                        </div>
+
+                        <div class="row">
+                            <button class="multistate material-icons" id="equipment-handheld-radio" data-state="none"
+                                data-states="yes none"></button>
+                            <label for="equipment-handheld-radio">Handheld Radio</label>
+                        </div>
+
+                        <div class="row">
+                            <button class="multistate material-icons" id="equipment-heka-amulet" data-state="none"
+                                data-states="yes none"></button>
+                            <label for="equipment-heka-amulet">Heka Amulet</label>
+                        </div>
+
+                        <div class="row">
+                            <button class="multistate material-icons" id="equipment-metal-detector"
+                                data-state="none" data-states="yes none"></button>
+                            <label for="equipment-metal-detector">Metal Detector</label>
+                        </div>
+
+                        <div class="row">
+                            <button class="multistate material-icons" id="equipment-radar-sensor" data-state="none"
+                                data-states="yes none"></button>
+                            <label for="equipment-radar-sensor">Radar Sensor</label>
+                        </div>
+
+                        <div class="row">
+                            <button class="multistate material-icons" id="equipment-seismometer" data-state="none"
+                                data-states="yes none"></button>
+                            <label for="equipment-seismometer">Seismometer</label>
+                        </div>
+
+                        <div class="row">
+                            <button class="multistate material-icons" id="equipment-transmitter" data-state="none"
+                                data-states="yes none"></button>
+                            <label for="equipment-transmitter">Transmitter</label>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="column">
+                <section>
+                    <p class="section-title">Possibilities <span data-state="no" data-toggle=".evidence"
+                            class="toggle">show evidence</span></p>
+                    <div class="row mejai">
+                        <button id="dekan" class="multistate material-icons" data-states="none no"
+                            data-state="none"></button>
+                        <label for="dekan">Dekan the Lost</label>
+                        <p class="evidence info hidden">
+                            <span class="destruction">Destruction,</span>
+                            <span class="disturbed-tombs">Disturbed Tombs,</span>
+                            <span class="electronic-disturbances">Electronic Disturbances,</span>
+                            <span class="footsteps">Footsteps,</span>
+                            <span class="radar-detection">Radar Detection,</span>
+                            <span class="radioactivity">Radioactivity,</span>
+                            <span class="reanimation">Reanimation,</span>
+                            <span class="tremors">Tremors,</span>
+                            <span class="vocal-response">Vocal Response</span>
+                        </p>
+                    </div>
+
+                    <div class="row mejai">
+                        <button id="necreph" class="multistate material-icons" data-states="none no"
+                            data-state="none"></button>
+                        <label for="necreph">Necreph the Shadow</label>
+                        <p class="evidence info hidden">
+                            <span class="destruction">Destruction,</span>
+                            <span class="disturbed-tombs">Disturbed Tombs,</span>
+                            <span class="electronic-disturbances">Electronic Disturbances,</span>
+                            <span class="extinguished-flame">Extinguished Flame,</span>
+                            <span class="magnetic-distortion">Magnetic Distortion,</span>
+                            <span class="metallic-signature">Metallic Signature,</span>
+                            <span class="radioactivity">Radioactivity,</span>
+                            <span class="tremors">Tremors,</span>
+                            <span class="vocal-response">Vocal Response</span>
+                        </p>
+                    </div>
+
+                    <div class="row mejai">
+                        <button id="ouphris" class="multistate material-icons" data-states="none no"
+                            data-state="none"></button>
+                        <label for="ouphris">Ouphris the Forgotten</label>
+                        <p class="evidence info hidden">
+                            <span class="extinguished-flame">Extinguished Flame,</span>
+                            <span class="footsteps">Footsteps,</span>
+                            <span class="magnetic-distortion">Magnetic Distortion,</span>
+                            <span class="metallic-signature">Metallic Signature,</span>
+                            <span class="radar-detection">Radar Detection,</span>
+                            <span class="radioactivity">Radioactivity,</span>
+                            <span class="reanimation">Reanimation,</span>
+                            <span class="tremors">Tremors,</span>
+                            <span class="vocal-response">Vocal Response</span>
+                        </p>
+                    </div>
+
+                    <div class="row mejai">
+                        <button id="rathos" class="multistate material-icons" data-states="none no"
+                            data-state="none"></button>
+                        <label for="rathos">Rathos the Damned</label>
+                        <p class="evidence info hidden">
+                            <span class="destruction">Destruction,</span>
+                            <span class="disturbed-tombs">Disturbed Tombs,</span>
+                            <span class="electronic-disturbances">Electronic Disturbances,</span>
+                            <span class="extinguished-flame">Extinguished Flame,</span>
+                            <span class="footsteps">Footsteps,</span>
+                            <span class="magnetic-distortion">Magnetic Distortion,</span>
+                            <span class="metallic-signature">Metallic Signature,</span>
+                            <span class="radar-detection">Radar Detection,</span>
+                            <span class="reanimation">Reanimation</span>
+                        </p>
+                    </div>
+
+                    <div class="row mejai">
+                        <button id="talgor" class="multistate material-icons" data-states="none no"
+                            data-state="none"></button>
+                        <label for="talgor">Talgor the Perilous</label>
+                        <p class="evidence info hidden">
+                            <span class="destruction">Destruction,</span>
+                            <span class="electronic-disturbances">Electronic Disturbances,</span>
+                            <span class="extinguished-flame">Extinguished Flame,</span>
+                            <span class="magnetic-distortion">Magnetic Distortion,</span>
+                            <span class="radar-detection">Radar Detection,</span>
+                            <span class="radioactivity">Radioactivity,</span>
+                            <span class="reanimation">Reanimation,</span>
+                            <span class="tremors">Tremors,</span>
+                            <span class="vocal-response">Vocal Response</span>
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="footer-container">
+            <div id="footer-text" class="row">
+                <p><a href="https://github.com/abluescarab/forewarned-tool" target="_blank">source code</a></p>
+                <p><span id="change-theme" class="toggle">change theme</span> &bull; <a href="#">back to top</a>
+                </p>
+            </div>
+
+            <div id="cookie-banner">
+                <p>This website can use cookies to store your theme selection and expanded sections. <button
+                        id="accept-cookies">Accept</button> <button id="decline-cookies">Decline</button></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/constants.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/multistate.js"></script>
+    <script src="js/events.js"></script>
+</body>
+</html>
